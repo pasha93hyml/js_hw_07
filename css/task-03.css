@@ -1,0 +1,15 @@
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#gallery > li {
+    list-style: none;
+}
+
+#gallery > li > img {
+    width: 400px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
